@@ -50,5 +50,4 @@ function updateDisplay() {
     `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
 
-// Initialize with default timer
 setTimer('pomodoro');
